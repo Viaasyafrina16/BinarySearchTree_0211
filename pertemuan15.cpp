@@ -148,7 +148,13 @@ public:
                 x.inorder(x.ROOT);
                 break;
             }
+            case '3':
+            {
+                x.postorder(x.ROOT);
+                break;
+            }
             
+
             }
 
             
