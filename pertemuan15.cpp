@@ -80,9 +80,9 @@ public:
         }
         if (ptr != NULL)
         {
-            inorder(ptr->leftchild);
-            cout << ptr->info << " ";
-            inorder(ptr->rightchild);
+            inorder(ptr->leftchild); // LEFT
+            cout << ptr->info << " "; // ROOT
+            inorder(ptr->rightchild); // RIGHT
         }
     }
 
@@ -113,6 +113,15 @@ public:
             postorder(ptr->leftchild); // LEFT
             postorder(ptr->rightchild); // RIGHT
             cout << ptr->info << " "; // ROOT
+        }
+    }
+
+    int main()
+    {
+        BinaryTree x;
+        while (true)
+        {
+            
         }
     }
 
